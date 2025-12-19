@@ -19,7 +19,31 @@
       background: linear-gradient(135deg, #0a3cff, #6a0dad);
       color: white;
       padding: 50px 20px;
-      text-align: center;
+      text-align: center;<section class="hero">
+  <h2>Nos domaines d’expertise</h2>
+
+  <div class="services">
+    <div class="card">
+      <img src="images/it.jpg" alt="Informatique">
+      <h3>Informatique & Réseaux</h3>
+    </div>
+
+    <div class="card">
+      <img src="images/solar.jpg" alt="Énergie solaire">
+      <h3>Énergie solaire</h3>
+    </div>
+
+    <div class="card">
+      <img src="images/vsat.jpg" alt="VSAT">
+      <h3>VSAT & Antennes paraboliques</h3>
+    </div>
+
+    <div class="card">
+      <img src="images/radio.jpg" alt="Radio télécom">
+      <h3>Radio télécommunications</h3>
+    </div>
+  </div>
+</section>
     }
 
     header h1 {
@@ -74,9 +98,49 @@
       text-align: center;
       line-height: 1.8;
     }
-  </style>
-</head>
+  </style>.hero img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
+.hero h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+</head>
+<section class="hero">
+  <h2>Nos domaines d’expertise</h2>
+
+  <div class="services">
+    <div class="card">
+      <img src="images/it.jpg" alt="Informatique">
+      <h3>Informatique & Réseaux</h3>
+    </div>
+
+    <div class="card">
+      <img src="images/solar.jpg" alt="Énergie solaire">
+      <h3>Énergie solaire</h3>
+    </div>
+
+    <div class="card">
+      <img src="images/vsat.jpg" alt="VSAT">
+      <h3>VSAT & Antennes paraboliques</h3>
+    </div>
+
+    <div class="card">
+      <img src="images/radio.jpg" alt="Radio télécom">
+      <h3>Radio télécommunications</h3>
+    </div>
+  </div>
+</section>
 <body>
 
 <header>
