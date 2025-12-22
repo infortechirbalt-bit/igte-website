@@ -11,19 +11,19 @@ body {
 }
 
 /* ===== HEADER ===== */
-header {
+.en-tete {
   background: linear-gradient(135deg, #1e3c72, #4a00e0);
   color: white;
   padding: 40px 20px;
   text-align: center;
 }
 
-header h1 {
+.en-tete h1 {
   margin: 20px 0 10px;
   font-size: 32px;
 }
 
-header p {
+.en-tete p {
   opacity: 0.9;
 }
 
@@ -87,7 +87,7 @@ h2 {
 }
 
 /* ===== FOOTER ===== */
-footer {
+pied-de-page {
   background: #111;
   color: white;
   text-align: center;
